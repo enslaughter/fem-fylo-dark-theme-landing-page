@@ -1,0 +1,251 @@
+  /* General Tags */
+
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+    text-align: center;
+  }
+  body > *{
+    padding: 4.5rem;
+  }
+
+  h1,
+  h2 {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  h1{
+    font-size: 2.5rem;
+  }
+
+  ul{
+    list-style-type: none;
+  }
+
+  /* Header Section */
+
+  .page-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4.5rem;
+    }      
+
+  .header-link{
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 3.5rem;
+    color: lightgrey;
+  }
+
+  .header-link:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+  }
+
+  /* Intro Section */
+
+  .page-intro{
+    background-color: hsl(217, 28%, 15%);
+    background-image: url("../images/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+  }
+
+  .intro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    max-width: 720px;
+  }
+
+  .intro-image{
+    flex: 0 0 auto;
+  }
+
+  .intro-text{
+    flex: 0 1 0;
+    padding: 1rem;
+  }
+
+  .intro-text > h1{
+    line-height: 1.5;
+    font-weight: 700;
+  }
+
+  .intro-text > p{
+    padding: 1rem 3rem;
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  .btn-get-started{
+    background-image: linear-gradient(to top right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    width: 40%;
+    padding: 1rem 0;
+    border-radius: 2rem;
+    border: 0px solid transparent;
+    outline: 0px solid transparent;
+  }
+
+  .btn-get-started:hover{
+    background-image: none;
+    background-color: hsl(176, 68%, 64%);
+    cursor: pointer;
+  }
+
+  /* Features Section */
+
+  .page-features {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem;
+    background-color: hsl(218, 28%, 13%);
+  }
+
+  .feature-row{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .feature {
+    flex: 1 0 0;
+    margin: 0 1rem;
+    margin-bottom: 4rem;
+    padding: 1rem 4rem;
+  }
+
+  /* "More Info" Section */
+
+  .page-moreinfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4rem;
+  }
+
+  .moreinfo-body {
+    text-align: left;
+    padding: 0 4rem;
+    flex: 1 1 0;
+  }
+
+  .moreinfo-link{
+    color:hsl(176, 68%, 64%);
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    padding-bottom: 3px;
+  }
+
+  .moreinfo-link:hover{
+    color: white;
+    border-color: white;
+  }
+
+  /* Testimonials Section */
+
+  .page-testimonials {
+    display: flex;
+    flex-direction: row;
+    background-image: url("../images/bg-quotes.png");
+    background-position: 4rem 4rem;
+    background-repeat: no-repeat;
+  }
+
+  .testimonial {
+    background-color: hsl(219, 30%, 18%);
+    margin: 1rem;
+    text-align: left;
+    padding: 2rem 1.5rem 1.5rem;
+  }
+
+  .testimonial-author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .testimonial-author > img{
+    border-radius: 50%;
+  }
+
+  .testimonial-author > ul{
+    padding-left: 0.5rem;
+  }
+
+  .testimonial-author-name{
+    font-weight: 700;
+  }
+
+  /* Signup CTA Section */
+
+  .page-signup {
+    background-color: hsl(217, 28%, 15%);
+    margin: 0 20%;
+    position: relative;
+    top: 8rem;
+  }
+
+  /* Footer Section */
+
+  .page-footer{
+    text-align: left;
+    background-color: hsl(216, 53%, 9%);
+    padding-top: 10rem;
+  }
+
+  .footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .contact-info{
+    display: flex;
+    flex-direction: row;
+  }
+  .contact-info > p{
+    flex: auto;
+  } 
+
+  .footer-links-list > li:hover{
+    cursor: pointer;
+    font-weight: 700;
+  }
+
+  .social-icon-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    margin-left: 2rem;
+  }
+
+  .social-icon-container > *:hover{
+    color:hsl(176, 68%, 64%);
+    cursor: pointer;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  @media screen and (max-width: 480px){
+    
+  }
